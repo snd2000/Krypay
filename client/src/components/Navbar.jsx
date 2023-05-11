@@ -25,7 +25,7 @@ const Navbar = () => {
                     <NavbarItem key={item + index} title ={item} />
                 ))}
                 <li className='bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2548bd]'>
-                    Login
+                    Connect
                 </li>
             </ul>
             <div className="flex-relative">
@@ -40,7 +40,7 @@ const Navbar = () => {
                             <AiOutlineClose onClick={() => setToggleMenu(false)}/>
                         </li>
                         {["Market", "Exchange", "Tutorials", "Wallets", "Team"].map((item, index) => (
-                    <NavbarItem key={item + index} title ={item} classprops="my=2 text-lg" />
+                    <NavbarItem key={item + index} title ={item} classprops="my-2 text-lg" />
                 ))}
                     </ul>
                 )}  
